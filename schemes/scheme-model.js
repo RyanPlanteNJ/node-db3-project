@@ -5,7 +5,7 @@ function find() {
 }
 
 function findById(id) {
-  return db('scehmes')
+  return db('schemes')
   .where({ id });
 }
 
